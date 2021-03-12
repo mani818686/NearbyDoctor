@@ -1,0 +1,30 @@
+{
+  "name": "nearbydoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravind-15/Nearbydoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aravind-15/Nearbydoc/issues"
+  },
+  "homepage": "https://github.com/aravind-15/Nearbydoc#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2",
+    "nodemon": "^2.0.7",
+    "shortid": "^2.2.16"
+  }
+}

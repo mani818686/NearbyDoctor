@@ -1,0 +1,35 @@
+.page
+{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.menu-bar
+{
+    background-image:linear-gradient(-90deg,#141e30 ,#243b55);}
+.btn
+{
+    background-image:linear-gradient(-90deg,#5AFF15,#00B712);
+    margin-left: 50px;
+    border-radius: 5px; 
+    
+}
+.nav-link
+{
+    font-size: 20px;
+    margin:3px;
+    color: white !important;
+    font-weight: 500;
+}
+.navbar-nav
+{
+    text-align: right;
+    margin-right: 20px;
+}
+/* .card
+{
+    background-image:linear-gradient(-90deg,#141e30 ,#243b55);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    border-radius: 5px;
+} */

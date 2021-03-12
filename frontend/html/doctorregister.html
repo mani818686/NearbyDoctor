@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nearby doctor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/doctorregister.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"  crossorigin="anonymous" />
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <div class="menu-bar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/"><i class="fas fa-user-md mr-2"></i>Nearby doctor </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link " href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/ui/aboutus">About us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+
+ <!-- Sign up FORM -->
+ <div class="bg.img">
+ <div class="container">
+    <h2 style="text-align: center;">DOCTOR SIGNUP FORM</h2>
+    <hr>
+    <div>
+        <label >Username:</label>
+        <input class="form" type="text" name="username">
+    </div>
+    <p id="namealert"></p>
+    <br>
+    <div>
+        <label >Email:</label>
+        <input class="form" type="text" name="email">
+    </div>
+    <p id="emailalert"></p>
+    <br>
+    <div>
+        <label>Password:</label>
+        <input class="form" type="password" name="password">
+    </div>
+    <p id="passwordalert"></p><br>
+    <div>
+        <label>Specialist in:</label>
+        <select id="slist" name="specialist">
+        <option value="1">Podiatrist</option>
+        <option value="2">General Practitioner</option>
+        <option value="3">Allergist</option>
+        <option value="4">Anaesthesiologist</option>
+        <option value="5">Cardiologist</option>
+        <option value="6">Dermatologist</option>
+        <option value="7">Endocrinologist</option>
+        <option value="8">Epidemiologist</option>
+        <option value="9">Immunologist</option>
+        <option value="10">Neurologist</option>
+        <option value="11">Neurosurgeon</option>
+        <option value="12">Gynecologist</option>
+        <option value="13">Oncologist</option>
+        <option value="14">Ophthalmologist</option>
+        <option value="15">Otolaryngologist (also ENT Specialist)</option>
+        <option value="16">Physiatrist</option>
+        <option value="17">Plastic Surgeon</option>
+        <option value="18">Radiologist</option>
+        <option value="19">Surgeon</option>
+        <option value="20">Veterinarian</option>
+        <option value="21">Audiologist</option>
+        <option value="22">Homeopathic Doctor</option>
+        <option value="23">Pharmacist</option>
+        <option value="24">Dentist</option>
+           </select>
+    </div><br>
+    <div class="col">
+      <label>Location:</label>
+      <select  id="loc" class="form-select" name="location">
+          <option value="Medchal">Medchal</option>
+          <option value="Kompally">Kompally</option>
+          <option value="Suchitra">Suchitra</option>
+          <option value="Boinpally">Boinpally</option>
+          <option value="Secunderabad">Secunderabad</option>
+          <option value="Ameerpet">Ameerpet</option>
+          <option value="Banjara Hills">Banjara Hills</option>
+          <option value="Begumpet">Begumpet</option>
+          <option value="Gandipet">Gandipet</option>
+          <option value="Panjagutta">Panjagutta</option>
+          <option value="Khairatabad">Khairatabad</option>
+          <option value="Kachiguda">Kachiguda</option>
+          <option value="Jublie Hills">Jublie Hills</option>
+          <option value="ECIL">ECIL</option>
+          <option value="DilshukNagar">DilshukNagar</option>
+          <option value="HayatNagar">HayatNagar</option>
+          <option value="Koti">Koti</option>
+          <option value="LBNagar">LBNagar</option>
+          <option value="miyapur">miyapur</option>
+          <option value="moosapet">moosapet</option>
+          <option value="KPHB">KPHB</option>
+      </select>
+  </div>
+    <div>
+        <label>Hospital Name:</label>
+        <input class="form" type="text" name="hname">
+    </div><br>
+    
+    <div>
+        <label>Hospital Adress:</label>
+        <input class="form" type="text" name="hadrs">
+    </div><br>
+    <div>
+        <label >Timings:</label>
+        <input class="form" type="text" name="time">
+    </div><br>
+    <div>
+        <label >Consultation fees:</label>
+        <input class="form" type="text" name="cfee">
+    </div><br>
+    <button type="submit" class="btn" onclick="signup()">Register</button>
+    <br>
+    <p style="text-align: center;"><b>Already have an account?</b> <a href="/doctor/login">Login</a></p>
+  </div>
+</div>
+<br>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="/js/signup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>

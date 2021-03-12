@@ -1,0 +1,83 @@
+
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(156,154,154);
+    background: linear-gradient(90deg, rgba(156,154,154,1) 0%, rgba(240,239,246,1) 100%);
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("img_nature.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image:linear-gradient(-90deg,#141e30 ,#243b55);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    left: 0;
+    padding: 2%;
+    max-width: 500px;
+    margin-top: 70px !important;
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-bottom-color:black;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color:rgb(226, 238, 250);
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-image:linear-gradient(-90deg,#5AFF15,#00B712);    color:white;
+    border: none;
+    cursor: pointer;
+    display:table;
+    margin:0 auto;
+    width: 30%;
+    opacity: 0.9;
+    font-size:140%;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .nav-link
+{
+    font-size: 20px;
+    margin:3px;
+    color: white !important;
+    font-weight: 500;
+}
+.navbar-nav
+{
+    text-align: right;
+    margin-right: 20px;
+}
+.menu-bar
+{
+    background-image:linear-gradient(-90deg,#141e30 ,#243b55);
+}
