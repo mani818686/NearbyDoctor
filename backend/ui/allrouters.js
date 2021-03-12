@@ -39,7 +39,7 @@ app.get("/dashboard", function (req, res) {
   });
 
 app.get("/appointments/:id", function (req, res) {
-    res.sendFile(path.join(__dirname,"../../","/frontend/html/appointments.html"));
+    res.sendFile(path.join(__dirname,"../../","/frontend/html/Appointments.html"));
   });
   
 module.exports = app
